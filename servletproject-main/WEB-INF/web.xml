@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+    <servlet>
+      <servlet-name>servlethome</servlet-name>
+      <servlet-class>servletclass.AddProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servlethome</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+     <servlet>
+      <servlet-name>servletindex</servlet-name>
+      <servlet-class>servletclass.Home</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>servletindex</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>AddImage11</servlet-name>
+      <servlet-class>servletclass.AddProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddImage11</servlet-name>
+        <url-pattern>/AddImage</url-pattern>
+    </servlet-mapping>
+     
+      <servlet>
+      <servlet-name>AddProduct1</servlet-name>
+      <servlet-class>servletclass.AddProductFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddProduct1</servlet-name>
+        <url-pattern>/AddProduct</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+      <servlet-name>Showproduct1</servlet-name>
+      <servlet-class>servletclass.Showproduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Showproduct1</servlet-name>
+        <url-pattern>/Showproduct</url-pattern>
+    </servlet-mapping>
+
+       <servlet>
+      <servlet-name>productupdate1</servlet-name>
+      <servlet-class>servletclass.ProductUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productupdate1</servlet-name>
+        <url-pattern>/productupdate</url-pattern>
+    </servlet-mapping>
+
+      <servlet>
+      <servlet-name>showcart1</servlet-name>
+      <servlet-class>servletclass.ShowCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showcart1</servlet-name>
+        <url-pattern>/showcart</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+      <servlet-name>homepage</servlet-name>
+      <servlet-class>servletclass.HomePage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>homepage</servlet-name>
+        <url-pattern>/homepage</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+      <servlet-name>singleproduct1</servlet-name>
+      <servlet-class>servletclass.SingleProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>singleproduct1</servlet-name>
+        <url-pattern>/singleproduct</url-pattern>
+    </servlet-mapping>
+     <servlet>
+      <servlet-name>addtocart1</servlet-name>
+      <servlet-class>servletclass.AddCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addtocart1</servlet-name>
+        <url-pattern>/addtocart</url-pattern>
+    </servlet-mapping>
+     <servlet>
+      <servlet-name>cartView1</servlet-name>
+      <servlet-class>servletclass.CartView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartView1</servlet-name>
+        <url-pattern>/cartView</url-pattern>
+    </servlet-mapping>
+ <servlet>
+      <servlet-name>deleteproduct1</servlet-name>
+      <servlet-class>servletclass.DeleteProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteproduct1</servlet-name>
+        <url-pattern>/deleteproduct</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>updateproduct1</servlet-name>
+      <servlet-class>servletclass.ProductUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateproduct1</servlet-name>
+        <url-pattern>/updateproduct</url-pattern>
+    </servlet-mapping>
+    <servlet>
+      <servlet-name>updateproduct11</servlet-name>
+      <servlet-class>servletclass.ProductUpdateData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateproduct11</servlet-name>
+        <url-pattern>/updateproductdata</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
